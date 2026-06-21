@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "task": "driver",
+      "weights": "models/driver.pt",
+      "required_labels": ["driver", "rider"]
+    },
+    {
+      "task": "helmet",
+      "weights": "models/helmet.pt",
+      "required_labels": ["no_helmet"]
+    },
+    {
+      "task": "seatbelt",
+      "weights": "models/seatbelt.pt",
+      "required_labels": ["no_seatbelt"]
+    },
+    {
+      "task": "license_plate",
+      "weights": "models/license_plate.pt",
+      "required_labels": ["license_plate"]
+    }
+  ]
+}

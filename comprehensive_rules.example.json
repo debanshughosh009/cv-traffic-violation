@@ -1,0 +1,47 @@
+{
+  "preprocessing": {
+    "enabled": true,
+    "adaptive": true,
+    "clahe": true,
+    "shadow_correction": true,
+    "dehaze": true,
+    "deblur": true,
+    "rain_suppression": true,
+    "low_light_threshold": 55,
+    "blur_threshold": 45,
+    "contrast_threshold": 18
+  },
+  "stop_lines": [
+    {
+      "id": "junction_line",
+      "p1": [0.15, 0.68],
+      "p2": [0.85, 0.68],
+      "prohibited_side": 1,
+      "traffic_light_id": "main_signal"
+    }
+  ],
+  "traffic_lights": [
+    {
+      "id": "main_signal",
+      "roi": [0.43, 0.08, 0.55, 0.28],
+      "red_ratio_threshold": 0.08
+    }
+  ],
+  "parking_zones": [
+    {
+      "id": "no_parking",
+      "polygon": [[0.01, 0.55], [0.30, 0.55], [0.42, 0.98], [0.01, 0.98]],
+      "dwell_seconds": 10,
+      "max_movement": 0.02
+    }
+  ],
+  "direction_zones": [
+    {
+      "id": "northbound_lane",
+      "polygon": [[0.35, 0.25], [0.65, 0.25], [0.85, 1.0], [0.15, 1.0]],
+      "allowed_vector": [0.0, -1.0],
+      "min_displacement": 0.015,
+      "confirmation_frames": 3
+    }
+  ]
+}

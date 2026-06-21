@@ -1,0 +1,88 @@
+# ai slop
+.codex
+.agents
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+
+# Packaging and build artifacts
+build/
+dist/
+*.egg-info/
+pip-wheel-metadata/
+
+# YOLO / ML model artifacts
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+*.pb
+*.weights
+*.ckpt
+
+# Generated detections, training runs, and exports
+runs/
+outputs/
+output/
+results/
+predictions/
+exports/
+
+# Local datasets and large media files
+data/
+datasets/
+videos/
+video/
+images/
+frames/
+captures/
+*.avi
+*.mov
+*.mkv
+*.webm
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.tif
+*.tiff
+
+# Keep lightweight project assets and placeholder files when needed
+!assets/
+!assets/**
+!docs/
+!docs/**
+!samples/
+!samples/**
+!.gitkeep
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
