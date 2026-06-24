@@ -3,6 +3,12 @@
 An extensible YOLO/OpenCV traffic-violation review platform for recorded video,
 webcams, and fixed-camera streams.
 
+Run this:
+https://colab.research.google.com/drive/1cF-I_5XKObHK0cAB2Bdc6HnX4WTJ10hE?usp=sharing
+
+OR
+follow the instructions:
+
 ## Feature status
 
 | Feature | Status | Remaining work |
