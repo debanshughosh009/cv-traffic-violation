@@ -55,8 +55,7 @@ pip install -r requirements.txt
 ```
 
 For OCR, also install the native
-[Tesseract executable](https://github.com/tesseract-ocr/tesseract). The Python
-package alone is not the OCR engine.
+[Tesseract executable](https://github.com/tesseract-ocr/tesseract). The Python package alone is not the OCR engine.
 
 The default model is `yolov8n.pt`. Ultralytics downloads it automatically on
 the first run. If the machine has no internet access, download the weights
